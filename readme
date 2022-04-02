@@ -4,14 +4,13 @@ Johannes Müller, Aurélien Tellier and Michael Kurschilgen
 Echo chambers and opinion dynamics explain the occurrence of vaccination hesitancy
 http://arxiv.org/abs/2007.03910
 
-There are three scipts:
+There are two scipts:
 (a) Fit the reinforcement-distribution to a vector of vaccination coverage data
     fit.r               (fitting the parameters, calling "estiReinforceV0.r", and performing test)
     estiReinforceV0.r   (optimization routine)
-(b) Create a nearest-neighbour graph from GIS data
-    graph.r
 (c) Use the quasi-likelihood for the reinforcement-distribution on graphs
     to fit spatial vaccination coverage data.
-    fitSpatial.r
+    fitSpatial.r            (fitting the parameters)
+    estiReinforceSpatV0.r   (optimization routine)
 The details (how data should be provided to the scripts) are contained
 at the beginning of the respective scripts.
