@@ -11,5 +11,6 @@ There are three scipts:
     graph.r
 (c) Use the quasi-likelihood for the reinforcement-distribution on graphs
     to fit spatial vaccination coverage data.
+    fitSpatial.r
 The details (how data should be provided to the scripts) are contained
 at the beginning of the respective scripts.
