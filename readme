@@ -5,10 +5,10 @@ Echo chambers and opinion dynamics explain the occurrence of vaccination hesitan
 http://arxiv.org/abs/2007.03910
 
 There are two scipts:
-(a) Fit the reinforcement-distribution to a vector of vaccination coverage data
+(a) Fit the reinforcement-distribution to a vector of vaccination coverage data (no spatial structure)
     fit.r               (fitting the parameters, calling "estiReinforceV0.r", and performing test)
     estiReinforceV0.r   (optimization routine)
-(c) Use the quasi-likelihood for the reinforcement-distribution on graphs
+(c) Use the quasi-likelihood for the reinforcement-distribution for a spatial structure given by a graph
     to fit spatial vaccination coverage data.
     fitSpatial.r            (fitting the parameters)
     estiReinforceSpatV0.r   (optimization routine)
