@@ -6,7 +6,8 @@ http://arxiv.org/abs/2007.03910
 
 There are three scipts:
 (a) Fit the reinforcement-distribution to a vector of vaccination coverage data
-    fit.r
+    fit.r          (fitting the parameters, calling "estimateV0.r", and performing test)
+    estimateV0.r   (optimization routine)
 (b) Create a nearest-neighbour graph from GIS data
     graph.r
 (c) Use the quasi-likelihood for the reinforcement-distribution on graphs
