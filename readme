@@ -1,5 +1,15 @@
-This repository contains (will contain :) ) the r-script accompanying the paper
+This repository contains (will contain :) ) the r-scripts accompanying the paper
 
 Johannes Müller, Aurélien Tellier and Michael Kurschilgen
 Echo chambers and opinion dynamics explain the occurrence of vaccination hesitancy
 http://arxiv.org/abs/2007.03910
+
+There are three scipts:
+(a) Fit the reinforcement-distribution to a vector of vaccination coverage data
+    fit.r
+(b) Create a nearest-neighbour graph from GIS data
+    graph.r
+(c) Use the quasi-likelihood for the reinforcement-distribution on graphs
+    to fit spatial vaccination coverage data.
+The details (how data should be provided to the scripts) are contained
+at the beginning of the respective scripts.
